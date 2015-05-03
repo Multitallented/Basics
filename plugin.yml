@@ -1,0 +1,144 @@
+name: Basics
+main: multitallented.redcastlemedia.bukkit.basics.Basics
+version: 0.1
+author: Multitallented
+description: Custom plugin
+depend: [Vault]
+commands:
+   sethome:
+      aliases: []
+      description: sets a location for you to teleport to
+      usage: /<command>
+   home:
+      aliases: []
+      description: teleports you home
+      usage: /<command>
+   r:
+      aliases: []
+      description: replies to a private message
+      usage: /<command>
+   weather:
+      aliases: []
+      description: changes the weather
+      usage: /<command>
+   sudo:
+      aliases: []
+      description: forces another player to perform a command
+      usage: /<command>
+   spawn:
+      aliases: []
+      description: teleports a player to spawn
+      usage: /<command>
+   mute:
+      aliases: []
+      description: mutes a player
+      usage: /<command>
+   i:
+      aliases: []
+      description: Gives you items
+      usage: /<command>
+   give:
+      aliases: []
+      description: Gives player items
+      usage: /<command>
+   slay:
+      aliases: [kill]
+      description: kills a player
+      usage: /<command>
+   suicide:
+      aliases: []
+      description: kill yourself
+      usage: /<command>
+   tp:
+      aliases: []
+      description: teleport to a player or location
+      usage: /<command>
+   tphere:
+      aliases: []
+      description: teleport to a player
+      usage: /<command>
+   tpa:
+      aliases: []
+      description: teleport to a player
+      usage: /<command>
+   tpahere:
+      aliases: []
+      description: teleport to a player
+      usage: /<command>
+   tpaccept:
+      aliases: []
+      description: teleport to a player
+      usage: /<command>
+   help:
+      aliases: []
+      description: read the help
+      usage: /<command>
+   rules:
+      aliases: []
+      description: read the rules
+      usage: /<command>
+   seen:
+      aliases: []
+      description: shows when a player last logged in
+      usage: /<command>
+   broadcast:
+      aliases: []
+      description: says something important
+      usage: /<command>
+   gm:
+      aliases: []
+      description: changes gamemode
+      usage: /<command>
+   invsee:
+      aliases: []
+      description: view a player inventory
+      usage: /<command>
+   ci:
+      aliases: []
+      description: clear a player inventory
+      usage: /<command>
+   msg:
+      aliases: [tell, t, m]
+      description: sends a message to a player
+      usage: /<command>
+   ignore:
+      aliases: []
+      description: blocks messages from a player
+      usage: /<command>
+permissions:
+   basics.tp:
+      description: Lets you tp
+      default: op
+   basics.tphere:
+      description: Lets you tphere
+      default: op
+   basics.mute:
+      description: Lets you mute other players
+      default: op
+   basics.gm:
+      description: Lets you toggle gamemode
+      default: op
+   basics.slay:
+      description: Lets you kill someone
+      default: op
+   basics.weather:
+      description: Lets you change the weather
+      default: op
+   basics.ci:
+      description: Lets you clear someones inventory
+      default: op
+   basics.invsee:
+      description: Lets you see someones inventory
+      default: op
+   basics.broadcast:
+      description: Lets you get peoples attention
+      default: op
+   basics.give:
+      description: Lets you give spawned items
+      default: op
+   basics.tpa:
+      description: Lets you tpa
+      default: op
+   basics.tpahere:
+      description: Lets you tpahere
+      default: op
